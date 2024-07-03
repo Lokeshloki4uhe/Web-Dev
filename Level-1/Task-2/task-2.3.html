@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <center>
+        <div style="border:2px solid black;width:190px;height:200px">
+            <label for="num1">Number 1:</label>
+            <input type="text" id="num1"><br><br>
+            <label for="num2">Number 2:</label>
+            <input type="text" id="num2"><br><br>
+            <button onclick="addNumbers()">Add Numbers</button>
+            <p id="result"></p>
+            <script>
+                function addNumbers() {
+                    var num1 = parseFloat(document.getElementById("num1").value);
+                    var num2 = parseFloat(document.getElementById("num2").value);
+                    if (isNaN(num1) || isNaN(num2)) {
+                        alert("Please enter valid numbers.");
+                        return;
+                    }
+                    var result = num1 + num2;
+                    document.getElementById("result").innerHTML = "Result: " + result;
+                }
+            </script>
+        </div>
+    </center>
+</body>
+
+</html>
