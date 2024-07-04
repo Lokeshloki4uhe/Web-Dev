@@ -1,0 +1,190 @@
+body {
+    background-image: linear-gradient(to right, rgb(237, 237, 77), rgb(35, 193, 35));
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.image-box {
+    width: 100%;
+}
+
+.image-box input[type="radio"] {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border: 1px solid black;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: 0 0 3px #000;
+}
+
+.image-box input[type="radio"]:hover {
+    transform: scale(1, 1);
+    box-shadow: 0 0 5px #000;
+}
+
+#img-1 {
+    background-image: url("1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img-2 {
+    background-image: url("2.png");
+    background-size: cover;
+}
+
+#img-3 {
+    background-image: url("3.png");
+    background-size: cover;
+}
+
+#img-4 {
+    background-image: url("4.png");
+    background-size: cover;
+}
+
+#img-5 {
+    background-image: url("5.png");
+    background-size: cover;
+}
+
+#img-6 {
+    background-image: url("6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img-7 {
+    background-image: url("7.png");
+    background-size: cover;
+}
+
+#img-8 {
+    background-image: url("8.png");
+    background-size: cover;
+}
+
+#img-9 {
+    background-image: url("9.png");
+    background-size: cover;
+}
+
+#img-10 {
+    background-image: url("10.png");
+    background-size: cover;
+}
+
+#img-11 {
+    background-image: url("11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img-12 {
+    background-image: url("12.png");
+    background-size: cover;
+}
+
+#img-13 {
+    background-image: url("13.png");
+    background-size: cover;
+}
+
+#img-14 {
+    background-image: url("14.png");
+    background-size: cover;
+}
+
+#img-15 {
+    background-image: url("15.png");
+    background-size: cover;
+}
+
+.image-bg {
+    width: 70%;
+    height: 650px;
+    margin-top: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+#img-1:checked~.image-bg {
+    background-image: url("1.png");
+    background-size: cover;
+}
+
+#img-2:checked~.image-bg {
+    background-image: url("2.png");
+    background-size: cover;
+}
+
+#img-3:checked~.image-bg {
+    background-image: url("3.png");
+    background-size: cover;
+}
+
+#img-4:checked~.image-bg {
+    background-image: url("4.png");
+    background-size: cover;
+}
+
+#img-5:checked~.image-bg {
+    background-image: url("5.png");
+    background-size: cover;
+}
+
+#img-6:checked~.image-bg {
+    background-image: url("6.png");
+    background-size: cover;
+}
+
+#img-7:checked~.image-bg {
+    background-image: url("7.png");
+    background-size: cover;
+}
+
+#img-8:checked~.image-bg {
+    background-image: url("8.png");
+    background-size: cover;
+}
+
+#img-9:checked~.image-bg {
+    background-image: url("9.png");
+    background-size: cover;
+}
+
+#img-10:checked~.image-bg {
+    background-image: url("10.png");
+    background-size: cover;
+}
+
+#img-11:checked~.image-bg {
+    background-image: url("11.png");
+    background-size: cover;
+}
+
+#img-12:checked~.image-bg {
+    background-image: url("12.png");
+    background-size: cover;
+}
+
+#img-13:checked~.image-bg {
+    background-image: url("13.png");
+    background-size: cover;
+}
+
+#img-14:checked~.image-bg {
+    background-image: url("14.png");
+    background-size: cover;
+}
+
+#img-15:checked~.image-bg {
+    background-image: url("15.png");
+    background-size: cover;
+}

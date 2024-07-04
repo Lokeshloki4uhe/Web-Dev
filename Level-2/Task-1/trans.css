@@ -1,0 +1,29 @@
+body{
+	margin:0;
+	padding:0;
+	background:#313131;
+}
+.slider{
+	width:1050px;
+	height:600px;
+	background:url(f.jpg);
+	margin:100px auto;
+	animation:slide 10s infinite;
+}
+@keyframes slide{
+	20%{
+		background:url(a.jpg);
+	}
+	40%{
+		background:url(b.jpg);
+	}
+	60%{
+		background:url(c.jpg);
+	}
+	80%{
+		background:url(d.jpg);
+	}
+	100%{
+		background:url(e.jpg);
+	}
+}
